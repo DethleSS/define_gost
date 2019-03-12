@@ -18,7 +18,7 @@
 #define shablon template
 #define semeistvo class
 #define imya typename
-#define yslovie void
+#define yslovie if
 #define drugoe else
 #define za_loopa for
 #define popa while
@@ -28,6 +28,7 @@
 #define ne_dam private
 #define zashishau protected
 #define vernuti return
+#define idi_na goto
 #define kavichka_odinarnaya "'"
 #define kavichka_dvoinaya ""
 #define dva_dvoetochya ::
@@ -39,10 +40,12 @@
 #define neravno !=
 #define bolshe >
 #define menshe <
+#define dva_plusa ++
+#define plus_ravno +=
 #define strelochka ->
 #define zvezdochka *
 #define vivod cout
-#define podcluchiti #include
+#define podcluchiti include
 #define kvodratnaya_skobka_levaya [
 #define kvodratnaya_skobka_pravaya ]
 #define skobochka_levaya (
